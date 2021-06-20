@@ -1,5 +1,5 @@
-#Pre Mest assignment 6
-##install dependencies
+# Pre Mest assignment 6
+## install dependencies
 npm install
-###start server
+### start server
 node index.js
