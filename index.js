@@ -8,10 +8,10 @@ require('./dbConfig/dbConnect')
 
 app.use(cors());
 app.use(express.json());
-app.use("/", route);
+app.use("/api", route);
 
 
 
-app.listen(() => {
+app.listen(PORT, () => {
     console.log(`listening on port ${PORT}`);
 })
